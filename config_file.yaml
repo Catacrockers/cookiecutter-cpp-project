@@ -1,0 +1,8 @@
+default_context:
+  author: Your Name
+  email: yname@gmail.com
+  project_name_full: Project Name
+  project_name: "{{ cookiecutter.project_name_full.lower().replace(' ', '_') }}"
+  project_short_description: CPP project (compatible with C) that support several modules (or libraries) and examples
+  version: '0.5'
+  cmake_version: '3.0'
