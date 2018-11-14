@@ -70,5 +70,8 @@ Use variable `extra_content` to achieve it.
 
 # More ideas **TODO**
 
-* Support a list to add find_package.
-* Support add libraries and include path from config.
+* Update README
+* Support more options:
+  * list of find packages
+  * list of includes
+  * list of libraries for a module
