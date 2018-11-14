@@ -57,6 +57,13 @@ samples [default]: { "names" : [ "sample1", "sample2" ] }
 
 Use the YAML. **TODO** I couldnt to provide a valid data to do this.
 
+### Manually
+
+Use variable `extra_content` to achieve it.
+
+* Using python: ```cookiecutter(url, no_input=True, output_dir=path, extra_context={'project_name': name})```
+* Using executable: ```cookiecutter(url, no_input=True, output_dir=path, extra_context={'project_name': name}) -o "test_output" ```
+
 ## Setting the option without input
 
 **TODO**
